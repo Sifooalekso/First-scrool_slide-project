@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+
+.slide.active {
+    opacity: 1;
+}
+
+
+.slide {
+    opacity: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 1s ease;
+}
+
+.slide:nth-child(even) {
+    background-color: rgb(26, 31, 46);
+    color: white;
+}
